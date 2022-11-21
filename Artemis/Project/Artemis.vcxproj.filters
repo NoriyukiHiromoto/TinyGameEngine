@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Source\Artemis.Types.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Artemis.Core.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Threading\Artemis.Thread.cpp">
+      <Filter>Source\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Memory\Artemis.Allocator.cpp">
+      <Filter>Source\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Common\Artemis.Object.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\Platform\Artemis.GraphicsDevice.directx11.cpp">
+      <Filter>Source\Graphics\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\Artemis.GraphicsDevice.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Common\Artemis.ReferenceCountObject.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Common\Artemis.FrameTime.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\System\Platform\Artemis.GameWindow.windows.cpp">
+      <Filter>Source\System\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\System\Artemis.GameWindow.cpp">
+      <Filter>Source\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\System\Artemis.SystemInfo.cpp">
+      <Filter>Source\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Math\Artemis.MatrixUtil.cpp">
+      <Filter>Source\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Math\Artemis.VectorUtil.cpp">
+      <Filter>Source\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\Artemis.Buffer.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Artemis.Local.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Artemis.Types.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Artemis.Core.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Artemis.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Interface\Artemis.Interface.hpp">
+      <Filter>Include\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Threading\Artemis.Thread.hpp">
+      <Filter>Source\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Memory\Artemis.Allocator.hpp">
+      <Filter>Source\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Common\Artemis.Object.hpp">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Graphics\Artemis.GraphicsDevice.hpp">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Common\Artemis.ReferenceCountObject.hpp">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Common\Artemis.SingletonObject.hpp">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Common\Artemis.FrameTime.hpp">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Interface\Graphics\Artemis.Buffer.hpp">
+      <Filter>Include\Interface\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Interface\Common\Artemis.FrameTime.hpp">
+      <Filter>Include\Interface\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Interface\Graphics\Artemis.GraphicsDevice.hpp">
+      <Filter>Include\Interface\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Interface\Graphics\Artemis.GraphicsTypes.hpp">
+      <Filter>Include\Interface\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Graphics\Platform\Artemis.GraphicsDevice.directx11.hpp">
+      <Filter>Source\Graphics\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\System\Platform\Artemis.GameWindow.windows.hpp">
+      <Filter>Source\System\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\System\Artemis.GameWindow.hpp">
+      <Filter>Source\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Interface\System\Artemis.SystemInfo.hpp">
+      <Filter>Include\Interface\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\System\Artemis.SystemInfo.hpp">
+      <Filter>Source\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Math\Artemis.MatrixUtil.hpp">
+      <Filter>Include\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Math\Artemis.VectorUtil.hpp">
+      <Filter>Include\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Graphics\Artemis.Buffer.hpp">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Utility\Artemis.ShaderCompiler.hpp">
+      <Filter>Include\Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{7a95fe57-5295-4b94-b81c-dc508ea8ce5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{90cb5968-3b06-4a41-bf5d-d335cdd24626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics">
+      <UniqueIdentifier>{b77e9d06-15d9-4154-8ff3-55991f963091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics\Platform">
+      <UniqueIdentifier>{944283a2-e14c-4155-8c80-55076b7d319c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Interface">
+      <UniqueIdentifier>{006d1709-0092-4e9e-89b4-4233b87c8611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System">
+      <UniqueIdentifier>{912ea81c-6929-476b-995c-7d4559b9e372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Platform">
+      <UniqueIdentifier>{58056d9d-fa46-45f5-ab58-38cf50d51e64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Threading">
+      <UniqueIdentifier>{41a24bc6-93ac-437e-947f-67ea991161fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Common">
+      <UniqueIdentifier>{19f6d9f4-451c-4047-a687-535650170a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Memory">
+      <UniqueIdentifier>{321e1b54-f5dd-4432-9db4-485d62aa4f82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Interface\Graphics">
+      <UniqueIdentifier>{4f53cc66-e34f-4d83-b7b6-18da4a6a6266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Interface\Common">
+      <UniqueIdentifier>{d44d8085-d417-4f40-983e-49bbc6f42f94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Interface\System">
+      <UniqueIdentifier>{966bc291-3ee0-4fd9-aef0-bad5eebc9083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Math">
+      <UniqueIdentifier>{775a876d-8d96-42ac-8253-45e6890ae22b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Math">
+      <UniqueIdentifier>{b0b17edf-72ee-4be8-9c2a-ba291492641d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Utility">
+      <UniqueIdentifier>{e4fb47a6-163a-4136-8a36-5ade4ac535ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
