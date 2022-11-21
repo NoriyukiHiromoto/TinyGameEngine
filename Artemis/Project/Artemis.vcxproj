@@ -94,7 +94,21 @@
     <ClCompile Include="..\Source\Graphics\Artemis.Buffer.cpp" />
     <ClCompile Include="..\Source\Graphics\Artemis.GraphicsDevice.cpp" />
     <ClCompile Include="..\Source\Artemis.Types.cpp" />
+    <ClCompile Include="..\Source\Graphics\Artemis.Shader.cpp" />
+    <ClCompile Include="..\Source\Graphics\Artemis.ShaderBinary.cpp" />
+    <ClCompile Include="..\Source\Graphics\Platform\Artemis.Buffer.directx11.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\Source\Graphics\Platform\Artemis.GraphicsDevice.directx11.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\Platform\Artemis.Shader.directx11.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\Platform\Artemis.ShaderBinary.directx11.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -108,6 +122,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\Source\Threading\Artemis.Thread.cpp" />
+    <ClCompile Include="..\Source\Utility\Artemis.ShaderCompiler.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Include\Artemis.Core.hpp" />
@@ -118,6 +133,8 @@
     <ClInclude Include="..\Include\Interface\Graphics\Artemis.Buffer.hpp" />
     <ClInclude Include="..\Include\Interface\Graphics\Artemis.GraphicsDevice.hpp" />
     <ClInclude Include="..\Include\Interface\Graphics\Artemis.GraphicsTypes.hpp" />
+    <ClInclude Include="..\Include\Interface\Graphics\Artemis.Shader.hpp" />
+    <ClInclude Include="..\Include\Interface\Graphics\Artemis.ShaderBinary.hpp" />
     <ClInclude Include="..\Include\Interface\System\Artemis.SystemInfo.hpp" />
     <ClInclude Include="..\Include\Math\Artemis.MatrixUtil.hpp" />
     <ClInclude Include="..\Include\Math\Artemis.VectorUtil.hpp" />
@@ -129,7 +146,21 @@
     <ClInclude Include="..\Source\Common\Artemis.SingletonObject.hpp" />
     <ClInclude Include="..\Source\Graphics\Artemis.Buffer.hpp" />
     <ClInclude Include="..\Source\Graphics\Artemis.GraphicsDevice.hpp" />
+    <ClInclude Include="..\Source\Graphics\Artemis.Shader.hpp" />
+    <ClInclude Include="..\Source\Graphics\Artemis.ShaderBinary.hpp" />
+    <ClInclude Include="..\Source\Graphics\Platform\Artemis.Buffer.directx11.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="..\Source\Graphics\Platform\Artemis.GraphicsDevice.directx11.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Source\Graphics\Platform\Artemis.Shader.directx11.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\Source\Graphics\Platform\Artemis.ShaderBinary.directx11.hpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClInclude>

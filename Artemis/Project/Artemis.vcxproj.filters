@@ -43,8 +43,26 @@
     <ClCompile Include="..\Source\Math\Artemis.VectorUtil.cpp">
       <Filter>Source\Math</Filter>
     </ClCompile>
+    <ClCompile Include="..\Source\Utility\Artemis.ShaderCompiler.cpp">
+      <Filter>Source\Utility</Filter>
+    </ClCompile>
     <ClCompile Include="..\Source\Graphics\Artemis.Buffer.cpp">
       <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\Platform\Artemis.Buffer.directx11.cpp">
+      <Filter>Source\Graphics\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\Platform\Artemis.ShaderBinary.directx11.cpp">
+      <Filter>Source\Graphics\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\Artemis.ShaderBinary.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\Artemis.Shader.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\Platform\Artemis.Shader.directx11.cpp">
+      <Filter>Source\Graphics\Platform</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -87,6 +105,9 @@
     <ClInclude Include="..\Include\Interface\Graphics\Artemis.Buffer.hpp">
       <Filter>Include\Interface\Graphics</Filter>
     </ClInclude>
+    <ClInclude Include="..\Include\Interface\Graphics\Artemis.Shader.hpp">
+      <Filter>Include\Interface\Graphics</Filter>
+    </ClInclude>
     <ClInclude Include="..\Include\Interface\Common\Artemis.FrameTime.hpp">
       <Filter>Include\Interface\Common</Filter>
     </ClInclude>
@@ -120,8 +141,26 @@
     <ClInclude Include="..\Source\Graphics\Artemis.Buffer.hpp">
       <Filter>Source\Graphics</Filter>
     </ClInclude>
+    <ClInclude Include="..\Source\Graphics\Platform\Artemis.Buffer.directx11.hpp">
+      <Filter>Source\Graphics\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Interface\Graphics\Artemis.ShaderBinary.hpp">
+      <Filter>Include\Interface\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Graphics\Platform\Artemis.ShaderBinary.directx11.hpp">
+      <Filter>Source\Graphics\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Graphics\Artemis.ShaderBinary.hpp">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
     <ClInclude Include="..\Include\Utility\Artemis.ShaderCompiler.hpp">
       <Filter>Include\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Graphics\Artemis.Shader.hpp">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Graphics\Platform\Artemis.Shader.directx11.hpp">
+      <Filter>Source\Graphics\Platform</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -169,6 +208,9 @@
     </Filter>
     <Filter Include="Source\Math">
       <UniqueIdentifier>{b0b17edf-72ee-4be8-9c2a-ba291492641d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utility">
+      <UniqueIdentifier>{f67de8a8-890a-4af7-a96b-0678c09fe932}</UniqueIdentifier>
     </Filter>
     <Filter Include="Include\Utility">
       <UniqueIdentifier>{e4fb47a6-163a-4136-8a36-5ade4ac535ed}</UniqueIdentifier>

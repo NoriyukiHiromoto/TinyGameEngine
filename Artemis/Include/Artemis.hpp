@@ -35,7 +35,11 @@
 #include "Interface/System/Artemis.SystemInfo.hpp"
 
 #include "Interface/Graphics/Artemis.GraphicsTypes.hpp"
+#include "Interface/Graphics/Artemis.ShaderBinary.hpp"
+#include "Interface/Graphics/Artemis.Shader.hpp"
 #include "Interface/Graphics/Artemis.Buffer.hpp"
 #include "Interface/Graphics/Artemis.GraphicsDevice.hpp"
+
+#include "Utility/Artemis.ShaderCompiler.hpp"
 
 #include "Artemis.Core.hpp"
